@@ -33,8 +33,8 @@ app.get('',(req,res)=>{
 
 app.get('/about',(req,res)=>{
     res.render('about',{
-        title:'Darbar',
-        name:'Directed By AR Murugadoss',
+        title:'About',
+        name:'By Muthukumar',
         developer:'Muthu'
 
     })
@@ -42,7 +42,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/help',(request,response)=>{
     response.render('help',{
-        title:'Weather app Help section',
+        title:'Help section',
         name:'Created by Muthu',
         developer:'Muthu'
     })
